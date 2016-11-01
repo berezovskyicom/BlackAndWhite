@@ -1,0 +1,33 @@
+
+
+/*	Font */
+
+@font-face {
+	font-family: 'Helvetica-Neue_Roman';
+	src: '../font/Helvetica-Neue-LT-Pro-55-Roman.ttf';
+}
+
+@font-face {
+	font-family: 'Helvetica-Neue_Light';
+	src: '../font/Helvetica-Neue-LT-Pro-45-Light.ttf';
+}
+
+@font-face {
+	font-family: 'Merriweather-Light';
+	src: '../font/Merriweather-Light.ttf';
+}
+
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: '../font/Montserrat-Light.otf';
+}
+
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: '../font/Montserrat-Regular.ttf';
+}
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: '../font/Roboto-Regular.ttf';
+}
