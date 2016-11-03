@@ -112,17 +112,20 @@ body {
 	margin: 0;
 }
 
-.person h4, .person p {
+.person h4, .person p, .boss h4, .boss p {
 	font-family: 'Helvetica-Neue_Roman';
+	font-weight: 200;
 }
 
-.person h4 {
+.person h4, .boss h4 {
 	font-size: 1.5em;
+	margin-bottom: 0;
 }
 
-.person p {
+.person p, .boss p {
 	font-size: 0.813em;
 	color: #ccc;
+	margin: 3px 0 10px 0;
 }
 
 .example h3 {
@@ -272,6 +275,15 @@ header {
 
 /* Team */
 
-.team {
-	padding-top: 80px;
+.person {
+	display: inline-block;
+	width: 20%;
+	margin: -200px 11.979166666%;
+}
+
+.boss {
+	padding-top: 90px;
+	width: 20%;
+	display: block;
+	margin: 0 auto;
 }
