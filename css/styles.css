@@ -159,7 +159,7 @@ footer {
 .timeline {
   background-color: #1D1D1D;
   position: relative;
-  min-height: 300vh;
+  height: 305vh;
   margin: 0;
   color: #fff;
 }
@@ -168,7 +168,7 @@ footer {
   content: '';
   position: absolute;
   top: 0px;
-  left: 50%;
+  left: 49.9%;
   bottom: 0px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -213,7 +213,7 @@ body .entries .entry .title:before {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  right: -73px;
+  right: -71px;
   z-index: 1000;
 }
 
@@ -230,7 +230,7 @@ body .entries .entry:nth-child(2n) {
 }
 
 body .entries .entry:nth-child(2n) .title:before {
-  left: -63px;
+  left: -65px;
 }
 body .entries .entry:nth-child(2n) .title.big:before {
   width: 24px;
@@ -259,4 +259,6 @@ header {
 
 #buildings {
 	width: 100%;
+	position: relative;
+	top: 6px;
 }
