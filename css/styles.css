@@ -64,8 +64,17 @@ body {
 	font-weight: 500;
 }
 
-.desc-flex h1, .services-title h1 {
+.desc-flex h1 {
 	font-size: 2.750em;
+}
+
+.services-title h1 {
+	font-size: 2.125em;
+	margin: 0;
+}
+
+.services-title p {
+	margin: 0;
 }
 
 .desc-flex p, .team p, .services-title p, .contact p {
@@ -286,4 +295,28 @@ header {
 	width: 20%;
 	display: block;
 	margin: 0 auto;
+}
+
+/* Services */
+
+#rotation {
+	position: relative;
+	width: 0;
+	height: 0;
+	border-bottom: 200px solid red; 
+	border-left: 1349px solid transparent;
+}
+
+.services {
+	background: #000;
+}
+
+.example {
+	display: inline-block;
+	width: 17.708333333%;
+	padding-right: 3.90625%;
+}
+
+.example:nth-child(3) {
+	padding-right: 0;
 }
