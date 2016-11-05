@@ -308,6 +308,10 @@ header {
 	left: 0;
 }
 
+.team img:hover {
+	cursor: pointer;
+}
+
 /* Team */
 
 .person {
@@ -428,4 +432,27 @@ textarea {
 
 footer p{
 	padding-bottom: 15px;
+}
+
+/* Animations */
+
+#btn:hover {
+	animation-name: btn_hover;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes btn_hover {
+	from {
+		background: #fff;
+		color: #000;
+	} to {
+		background: #000;
+		color: #fff;
+	}
+}
+
+#btn-blog:hover {
+	color: #fff;
+	background: #000;
 }
