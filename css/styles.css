@@ -77,7 +77,7 @@ body {
 	margin: 0;
 }
 
-.desc-flex p, .team p, .services-title p, .contact p {
+.desc-flex p, .team p, .services-title p, .title-contact p {
 	font-family: 'Merriweather-LightIt';
 }
 
@@ -99,6 +99,14 @@ body {
 
 .title {
 	font-size: 3em;
+}
+
+.title-contact h1 {
+	font-weight: 200;
+}
+
+.title-contact p, .title-contact h1 {
+	margin: 0;
 }
 
 .body p {
@@ -146,9 +154,10 @@ body {
 	color: #fff;
 }
 
-.example p {
-	font-size: 1.125em;
-	color: #333;
+.about-us p {
+	font: 0.813em 'Helvetica-Neue_Light';
+	color: #999;
+	margin: 0;
 }
 
 #btn-blog {
@@ -369,4 +378,24 @@ header {
 
 #btn-blog {
 	padding: 20px 2.1875%;
+}
+
+/* Contact */
+
+.contact {
+	padding: 90px 0 110px 0;
+}
+
+.about-us {
+	width: 13%;
+	padding-right: 6.614583333%;
+	display: inline-block;
+}
+
+.about-us:nth-child(3) {
+	padding-right: 0;
+}
+
+.about-us img {
+	padding: 20px 0 10px 0;
 }
