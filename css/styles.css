@@ -333,7 +333,7 @@ header {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 0 120px 98.8vw;
+  border-width: 0 0 120px 100vw;
   border-color: transparent transparent black transparent;
 }
 
@@ -367,22 +367,11 @@ header {
 	padding-right: 0;
 }
 
-.circle {
-	width: 50.450171821%;
-	height: 140px;
-	text-align: center;
-	display: block;
-	margin: 0 auto;
-	border: 6px solid #fff;
-	border-radius: 100px;
-	position: relative;
-}
-
 .example img {
-	position: absolute;
-  	top: 50%;
-  	left: 28%;
-  	transform: translateY(-50%);
+	max-width: 158px;
+	height: auto;
+	border: 6px solid #fff;
+	padding: 20px;
 }
 
 #heart {
@@ -455,4 +444,106 @@ footer p{
 #btn-blog:hover {
 	color: #fff;
 	background: #000;
+}
+
+@media(min-width: 730px) and (max-width: 1000px) {
+	.entry:nth-child(7) {
+		display: none;
+	}
+
+	form {
+		width: 80%;
+	}
+}
+
+@media(min-width: 500px) and (max-width: 729px) {
+
+	.nav {
+		padding-left: 0;
+	}
+
+	.nav li {
+		margin-right: 3%;
+	}
+
+	.timeline {
+		min-height: 145vh !important;
+	}
+
+	.d_none {
+		display: none;
+	}
+
+	body .entries .entry .title.big:before {
+		display: none;
+	}
+	.entries {
+		height: 100vh;
+	}
+
+	.entry:nth-child(3) {
+		float: right;
+	}
+
+	.entry:nth-child(6) {
+		float: left;
+	}
+
+}
+
+@media(min-width: 319px) and (max-width: 499px) {
+
+	.nav {
+		padding: 0 3%;
+		margin-bottom: 45px;
+		background: #fcfcfc;
+	}
+
+	.nav li {
+		display: block;
+		padding: 10px 0;
+	}
+
+	.timeline {
+		display: none;
+	}
+
+	.contact {
+		padding-bottom: 70px;
+	}
+
+	.about-us {
+		display: block;
+		margin: 0 auto;
+		width: 70%;
+		padding: 0;
+	}
+}
+
+@media(min-width: 319px) and (max-width: 729px) {
+	.team {
+		height: auto;
+	}
+
+	.boss, .person, .example {
+		width: auto;
+		display: block;
+		margin: 0 auto !important;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	.boss {
+		padding-top: 50px;
+	}
+
+	form {
+		width: 80%;
+	}
+}
+
+@media(min-width: 1319px) {
+		#rotation {
+			border-width: 0 0 120px 98.8vw;
+		}
 }
