@@ -370,7 +370,6 @@ header {
 .example img {
 	max-width: 158px;
 	height: auto;
-	border: 6px solid #fff;
 	padding: 20px;
 }
 
