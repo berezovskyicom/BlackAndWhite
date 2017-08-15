@@ -1,2 +1,2 @@
 # Black and White
-https://vlberezovsky.github.io/mybw/
+https://vlberezovsky.github.io/BlackAndWhite/
